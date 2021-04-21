@@ -88,3 +88,59 @@ c.NotebookApp.browser = 'chrome'
 ## 切换kernel
 
 [原作链接](https://blog.csdn.net/Junhao_Lu/article/details/100625831)
+
+## 切换主题
+
+__安装主题:__
+
+```python
+pip install --upgrade jupyterthemes		# anaconda prompt
+```
+
+__常用操作：__
+
+```python
+jt -l		# 查看主题
+jt -r		# 恢复默认主题
+```
+
+__[主题展示](https://blog.csdn.net/qq_41621362/article/details/89894126?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&dist_request_id=1332024.6981.16189848172240689&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control)；[详细操作](https://blog.csdn.net/qq_30565883/article/details/79444750#commentsedit)；__
+
+__推荐的主题：__
+```python
+jt -t chesterish -fs 14 -cellw 85% -ofs 13 -dfs 11 -T
+jt -t chesterish -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N		# 1
+jt -t grade3 -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+jt -t gruvboxd -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N		# 1
+jt -t gruvboxl -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+jt -t monokai -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+jt -t oceans16 -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+jt -t onedork -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+jt -t solarizedd -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+jt -t solarizedl -f fira -fs 11 -cellw 70% -ofs 11 -dfs 11 -T -N
+```
+
+__含义__
+```python
+-f(字体)  -fs(字体大小) -cellw(占屏比或宽度)  -ofs(输出段的字号)  -dfs(表头的字号) -T(显示工具栏)  -N(显示自己主机名)
+```
+
+__注释字体修改（Italia 斜体改 normal）__
+
+打开文件夹 `C:\Users\Lyun\.jupyter\custom`
+
+找到文件并打开 `custom.css`
+
+找到` cm-comment `中的内容，原内容为：
+
+```
+ color: #75715e;
+ font-style: italic
+```
+
+修改后
+
+```
+color: #75715e;
+ font-style: normal
+```
