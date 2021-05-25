@@ -6,15 +6,15 @@
 
 # 快捷键
 ```python
-Alt + Enter		# 选择忽略PEP8代码风格错误
+Alt + Enter				# 选择忽略PEP8代码风格错误
 
-Ctrl + D		# 快速复制当前行到下一行
+Ctrl + D				# 快速复制当前行到下一行
 
-Shift + F6		# pycharm变量统一命名
+Shift + F6				# pycharm变量统一命名
 
-Shift + Enter		# 跳到下一行
+Shift + Enter			# 跳到下一行
 
-Shift + Shift		# 全局搜索
+Shift + Shift			# 全局搜索
 
 Ctrl + Shift + Z		# 前进
 
