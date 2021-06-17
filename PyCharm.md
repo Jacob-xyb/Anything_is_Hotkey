@@ -21,5 +21,7 @@ Ctrl + Shift + Z		# 前进
 Ctrl + Shift + R		# 全局变量替换
 
 Ctrl + Shift + F		# 当前项目中查找
+
+Ctrl + Alt + Left/Right		# 追踪光标位置（与网易云全局搜索快捷键冲突）
 ```
 
