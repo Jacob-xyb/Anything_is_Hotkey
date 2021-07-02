@@ -46,6 +46,31 @@ view:toggle menu bar		# 视图：切换菜单栏
 
 ![](https://i.loli.net/2021/06/29/Mnwi8yHh2rZqXSU.png)
 
+# 个人操作习惯记录
+
+## Shift + F10 // 右键菜单
+
+在文本编辑界面，`Shift + F10` 可以打开右键菜单栏，然后上下可以选择命令选项，回车即可。
+
+![image-20210702091826187](https://i.loli.net/2021/07/02/7GCRAmdvNLho5af.png)
+
+## Ctrl + F // 搜索
+
+- `Ctrl + F` 当前文件搜索；`Ctrl + Shift + F` 当前项目搜索
+- 上下查找
+
+`Enter` 下一个匹配项；`Shift + Enter` 上一个匹配项。
+
+- Alt + W // 全字匹配
+
+- 不常用
+
+```python
+Alt + C				# 区分大小写
+Alt + R				# 正则表达式
+Alt + L				# 在选定内容中查找
+```
+
 # 扩展库
 
 ## Python extension for Visual Studio Code
