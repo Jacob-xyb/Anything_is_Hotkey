@@ -7,6 +7,7 @@
 ## 全局
 
 ```python
+Ctrl + P					# 全局搜索
 Ctrl + Shift + P			# 显示所有命令
 Ctrl + Shift + X			# 打开应用商店(会与QQ浏览器的区域截图快捷键冲突)
 ```
