@@ -19,15 +19,3 @@ option + command + delete		# 立即删除(目前发现好像只能手动点确�
 option + command + v				# 剪切(移动到)
 ```
 
-- 不常用
-
-## Safari
-
-- 常用
-
-```python
-command + w									# 关闭当前页面
-```
-
-
-
