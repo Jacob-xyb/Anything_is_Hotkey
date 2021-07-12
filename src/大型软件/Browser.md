@@ -8,6 +8,7 @@ Ctrl + P				# 打印当前页面(有时候选中打印效果更好)
 Ctrl + R				# 重新加载
 Ctrl + N				# 新建窗口
 Ctrl + T				# 新建新标签页
+Ctrl + L				# 光标定位到地址栏
 Ctrl + Shift + N		# 新建无痕窗口（Chrome）
 Ctrl + Shift + P		# 新建无痕窗口（QQ）
 
