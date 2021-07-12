@@ -1,6 +1,8 @@
 # 通用快捷键
 ```python
 --- 高频
+Space					# 向下翻页
+Shift + Space			# 向上翻页
 Ctrl + W				# 关闭当前窗口
 Ctrl + D				# 添加书签
 Ctrl + H				# 打开历史记录
@@ -9,6 +11,9 @@ Ctrl + R				# 重新加载
 Ctrl + N				# 新建窗口
 Ctrl + T				# 新建新标签页
 Ctrl + L				# 光标定位到地址栏
+Ctrl + +				# 页面放大
+Ctrl + -				# 页面缩小
+Ctrl + 0				# 页面恢复默认
 Ctrl + Shift + N		# 新建无痕窗口（Chrome）
 Ctrl + Shift + P		# 新建无痕窗口（QQ）
 
