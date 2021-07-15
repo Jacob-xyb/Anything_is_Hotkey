@@ -16,7 +16,9 @@ Ctrl + Shift + X			# 打开应用商店(会与QQ浏览器的区域截图快捷�
 ```python
 F5				# 运行程序
 F9				# 所在行设置断点
+Ctrl + ~		# 显示/隐藏终端
 Ctrl + D		# 选定当前词汇 or 将下一个查找匹配项添加到选择
+Ctrl + PgUp/PgDn	# 切换上/下标签页
 Ctrl + Shift + ~	# 新建一个终端并打开
 ```
 
@@ -27,6 +29,15 @@ Ctrl + Shift + ~	# 新建一个终端并打开
 ```python
 //	命令						//中文
 view:toggle menu bar		# 视图：切换菜单栏
+```
+
+## Ctrl  + Shift + U
+
+- `Ctrl  + Shift + U`		# 进入输出终端
+
+```python
+# 输出终端操作
+Ctrl + End			# 翻到最下
 ```
 
 ## 快捷键终结设置教程
@@ -73,20 +84,4 @@ Alt + C				# 区分大小写
 Alt + R				# 正则表达式
 Alt + L				# 在选定内容中查找
 ```
-
-# 扩展库
-
-## Python extension for Visual Studio Code
-
-- VScode python 必备库
-
-- 提供 代码分析 、 高亮 、 规范化 等很多基本功能
-
-## LiveCode for python
-
-- 实时展示python变量
-
-## Python Preview
-
-- 实时可视化代码结果
 
