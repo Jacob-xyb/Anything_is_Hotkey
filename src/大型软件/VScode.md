@@ -16,10 +16,15 @@ Ctrl + Shift + X			# 打开应用商店(会与QQ浏览器的区域截图快捷�
 ```python
 F5				# 运行程序
 F9				# 所在行设置断点
-Ctrl + ~		# 显示/隐藏终端
+command + L		# 选中当前行，继续按是往下多选
+Ctrl + ~			# 显示/隐藏终端
+command + ~		# 显示/隐藏终端
 Ctrl + D		# 选定当前词汇 or 将下一个查找匹配项添加到选择
 Ctrl + PgUp/PgDn	# 切换上/下标签页
 Ctrl + Shift + ~	# 新建一个终端并打开
+option + left/right		# 光标根据文字块移动
+option + up/down			# 将行进行 上/下 移动
+shift + option + up/down		# 多选 上/下 拷贝复制
 ```
 
 ## Ctrl + Shift + P
