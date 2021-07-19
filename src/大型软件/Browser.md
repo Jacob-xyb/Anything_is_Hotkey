@@ -16,6 +16,8 @@ Ctrl + -				# 页面缩小
 Ctrl + 0				# 页面恢复默认
 Ctrl + Shift + N		# 新建无痕窗口（Chrome）
 Ctrl + Shift + P		# 新建无痕窗口（QQ）
+Ctrl + PgUp/PgDn		# 切换上下标签页
+Alt + Left/Right		# 前进/后退
 
 --- 低频
 Ctrl + S				# 网页另存为
