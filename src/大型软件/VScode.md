@@ -13,24 +13,47 @@ Ctrl + Shift + X			# 打开应用商店(会与QQ浏览器的区域截图快捷�
 ```
 ## 文本
 
-- Windows
+###  Windows
 
 ```python
 F5		# 运行程序
 F9      # 所在行设置断点
-Alt + up/down       # 向 上/下 移动行
+home/end        # 移动光标到行 首/尾
+alt + up/down       # 向 上/下 移动行
+alt + left/right        # 光标回到 上/ 下 一个位置（跨文本）
 Ctrl + ~		# 显示/隐藏终端
 Ctrl + /        # 切换行注释
-Ctrl + L        # 选择当前行
 Ctrl + D        # 选定当前词汇 or 将下一个查找匹配项添加到选择
+Ctrl + L        # 选择当前行（鼠标3击）
+ctrl + u        # 光标回到上次状态（包含位置）（不能跨文本）
+ctrl + home/end     # 移动光标到文本 首/尾
 Ctrl + PgUp/PgDn        # 切换上/下标签页
+ctrl + up/down      # 不移动光标移动文本滚轮
+ctrl + left/right       # 跳token移动光标
+ctrl + delete       # 删除光标后面的词（token)
+ctrl + alt + left/right     # 文本便签页向 左/右 扩展移动
+ctrl + alt + up/down        # 向 上/下 扩展多行编辑光标
 Ctrl + Shift + ~        # 新建一个终端并打开
-Ctrl + Shift + L        # 选择所有匹配项
+ctrl + shift + l        # 选择所有匹配项  # *
 Ctrl + Shift + K        # 删除行    # 会和搜狗输入法 软键盘 快捷键冲突
-Shift + Alt + up/down       # 向 上/下 复制行
+Ctrl +(Shift)+ Enter        # 向 上/下 空行
+shift + home/end        # 移动光标到行 首/尾 的同时选中内容
+shift + alt + up/down       # 向 上/下 复制行
+shift + alt + left/right        # 缩小/扩大 选中范围  # *
+
+# 组合键
+ctrl + k, ctrl + 0      # 折叠所有代码；
+ctrl + k, ctrl + j      # 展开所有代码；
 ```
 
-- macOS
+- 快捷操作：
+
+1. 多行选择 + 多行编辑
+   
+   `首先点击左上角` 然后 `shift + alt + 单击右下角`
+   ![](https://exp-picture.cdn.bcebos.com/c255efc595ee41c17b1a83e68d88912ca4ca9b96.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_jpg%2Fquality%2Cq_80)
+
+### macOS
 
 ```python
 command + ~		# 显示/隐藏终端
@@ -43,8 +66,13 @@ option + up/down			# 将行进行 上/下 移动
 shift + option + A		# 切换块注释
 shift + option + up/down		# 多选 上/下 拷贝复制
 ```
+## 其他操作
 
-## Ctrl + Shift + P
+### ctrl + k, r
+
+选中一个文件，`ctrl + k, r` 在文件管理器中打开文件所在文件夹。
+
+### Ctrl + Shift + P
 
 - `Ctrl + Shift + P`		# 显示所有命令
 
@@ -53,7 +81,7 @@ shift + option + up/down		# 多选 上/下 拷贝复制
 view:toggle menu bar		# 视图：切换菜单栏
 ```
 
-## Ctrl  + Shift + U
+### Ctrl  + Shift + U
 
 - `Ctrl  + Shift + U`		# 进入输出终端
 
@@ -107,3 +135,34 @@ Alt + R				# 正则表达式
 Alt + L				# 在选定内容中查找
 ```
 
+# keybindings.json
+```json
+// 将键绑定放在此文件中以覆盖默认值
+
+[
+
+ 	 {
+
+    ​    "key": "ctrl+j ctrl+j",
+
+    ​    "command": "workbench.action.togglePanel"
+
+  	},
+    {
+        "key": "ctrl+j ctrl+right",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+j ctrl+left",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "ctrl+j ctrl+down",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+j ctrl+up",
+        "command": "workbench.action.splitEditorUp"
+    }
+]
+```
