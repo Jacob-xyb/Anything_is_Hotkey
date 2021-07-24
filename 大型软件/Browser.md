@@ -28,6 +28,7 @@ Ctrl + Shift + O		# 书签管理器
 ```
 # Bilibili
 ```python
+f		# 切换全屏
 [		# 视频选集往上选
 ]		# 视频选集往下选
 ```
