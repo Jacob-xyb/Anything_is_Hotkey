@@ -22,12 +22,12 @@ home/end        # 移动光标到行 首/尾
 alt + up/down       # 向 上/下 移动行
 alt + left/right        # 光标回到 上/ 下 一个位置（跨文本）
 Ctrl + ~		# 显示/隐藏终端
-Ctrl + /        # 切换行注释
-Ctrl + D        # 选定当前词汇 or 将下一个查找匹配项添加到选择
+Ctrl + /		# 切换行注释
+Ctrl + D    # 选定当前词汇 or 将下一个查找匹配项添加到选择
 Ctrl + L        # 选择当前行（鼠标3击）
 ctrl + u        # 光标回到上次状态（包含位置）（不能跨文本）
 ctrl + home/end     # 移动光标到文本 首/尾
-Ctrl + PgUp/PgDn        # 切换上/下标签页
+Ctrl + PgUp/PgDn        # 切换 上/下 标签页
 ctrl + up/down      # 不移动光标移动文本滚轮
 ctrl + left/right       # 跳token移动光标
 ctrl + delete       # 删除光标后面的词（token)
@@ -55,17 +55,38 @@ ctrl + k, ctrl + j      # 展开所有代码；
 
 ### macOS
 
+- 默认
+
 ```python
-command + ~		# 显示/隐藏终端
-command + /		# 切换行注释
+command + /		# 切换行注释  # most
 command + D		# 选定当前词汇 or 将下一个查找匹配项添加到选择
 command + L		# 选中当前行，继续按是往下多选
 command + left/right		# 光标移动到行 首/尾
+option + z		# 切换自动换行
 option + left/right		# 光标根据文字块移动
 option + up/down			# 将行进行 上/下 移动
-shift + option + A		# 切换块注释
+option + command + up/down		# 在 上/下 添加光标
+option + command + left/right		# 光标在 左/右 标签移动
+shift + ctrl + left/right		# 缩小/扩大 选中范围
+shift + option + a		# 切换块注释
 shift + option + up/down		# 多选 上/下 拷贝复制
+shift + command + k		# 删除行
+
+## command + k,
+command + q		# 光标转到上一个编辑的位置
 ```
+- 自定义
+
+因为我叫Jacob，所以把`command + j`改成了`command + j, command + j`,然后所有的组合键均使用`command + j, your choose`
+
+```python
+# command + j,
+command + p		# (path)聚焦到导航路径视图  # 神器！
+command + u		# 光标重做
+command + t		# (teminal)焦点到终端视图上
+command + l		# 删除行
+```
+
 ## 其他操作
 
 ### ctrl + k, r
