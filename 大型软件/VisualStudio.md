@@ -19,7 +19,7 @@ ctrl + shift + backspace    // 回到上一编辑位置
 ctrl + shift + [/]		// 折叠/展开 当前块
 ctrl + k, ctrl + 0		// 全部折叠
 ctrl + K, ctrl + u		// 取消注释
-ctrl + k, ctrl + j		// 全部展开
+ctrl + k, ctrl + j		// 全部展开	//
 ctrl + k, ctrl + c   // 注释
 ctrl + m, ctrl + m   // 折叠当前函数
 shift + F12   // 查看所有引用
