@@ -8,7 +8,7 @@
 ```python
 Alt + Enter				# 选择忽略PEP8代码风格错误
 
-alt + j					# 将下一个匹配项添加到选择  # *1
+alt + j					# 将下一个匹配项添加到选择  # *1	
 
 ctrl + enter			# 拆分行
 
