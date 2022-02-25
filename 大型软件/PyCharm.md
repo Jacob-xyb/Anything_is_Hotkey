@@ -8,7 +8,7 @@
 ```python
 Alt + Enter				# 选择忽略PEP8代码风格错误
 
-alt + j					# 将下一个匹配项添加到选择  # *1	
+alt + j					# 将下一个匹配项添加到选择  # *2	
 
 ctrl + enter			# 拆分行
 
@@ -26,7 +26,7 @@ Ctrl + Shift + R		# 全局变量替换
 
 Ctrl + Shift + F		# 当前项目中查找
 ctrl + shift + up/down		# 向上/下移动语句
-Ctrl + Alt + Left/Right		# 追踪光标位置（与网易云全局搜索快捷键冲突）
+Ctrl + Alt + Left/Right		# 追踪光标位置（与网易云全局搜索快捷键冲突） # *1
 ```
 
 ## 快捷键改键
