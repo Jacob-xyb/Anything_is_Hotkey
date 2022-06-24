@@ -34,7 +34,7 @@ ctrl + delete       # 删除光标后面的词（token)
 ctrl + alt + left/right     # 文本便签页向 左/右 扩展移动
 ctrl + alt + up/down        # 向 上/下 扩展多行编辑光标
 Ctrl + Shift + ~        # 新建一个终端并打开
-ctrl + shift + l        # 选择所有匹配项  # *
+ctrl + shift + l        # 选择所有匹配项  # **
 Ctrl + Shift + K        # 删除行    # 会和搜狗输入法 软键盘 快捷键冲突  #*
 ctrl + shift + [/]		# 折叠/展开 单元格
 Ctrl +(Shift)+ Enter        # 向 上/下 空行
